@@ -1,0 +1,16 @@
+.btn {
+  background: #071d49;
+  border: 1px solid #ccc;
+  color: #e2e8f0;
+  padding: 10px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus{
+    background: #ff7276;
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+}
