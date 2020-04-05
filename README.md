@@ -7,3 +7,7 @@ and put your moviedbservice apiKey to  REACT_APP_API_KEY env variable.
 
 Thank you in advance
 Saber CHAABANE
+
+// DOCKER Mode
+docker build -t react-app .
+docker run -p 80:3000 --env REACT_APP_API_KEY=<your_Api_Key> -it  react-app
